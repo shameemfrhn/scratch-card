@@ -30,7 +30,7 @@ const getCoordinates = (event) => {
 const scratch = (x, y) => {
   context.globalCompositeOperation = "destination-out";
   context.beginPath();
-  context.arc(x, y, 12, 0, Math.PI * 2);
+  context.arc(x, y, 25, 0, Math.PI * 2);
   context.fill();
 };
 
